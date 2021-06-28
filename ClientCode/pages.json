@@ -1,0 +1,146 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "work"
+			}
+		},
+		{
+		    "path" : "pages/home/home",
+		    "style" : {
+		        "navigationBarTitleText": "home",
+		        "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+		    }
+		    
+		},
+		{
+            "path" : "pages/add_card/add_card",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "add card",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+            "path" : "pages/card_details/card_details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/homepage/homepage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/addask/addask",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/personalcenter/personalcenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/ask_details/ask_details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit_profile/edit_profile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/myask_details/myask_details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{"titleNView":false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/registered/registered",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "work",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+}
