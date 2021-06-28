@@ -1,0 +1,40 @@
+{
+    "cardListTBA": [
+        {
+            "user": {
+                "avatar": "/static/avatar/avatar.jpg",
+                "name": "匿名用户json"
+            },
+            "title": "现在还有很多人相信中医无用论吗？",
+            "description": "刚看评论区两个人的观点才发现原来真的有中医无用论，我是学生物的，但不学医，想听听大家的看法和学医人的看法。难道从我的字里行间看不出我是反对中医无用论的么，我只是想问问别人的看法而已，为什么指责我。",
+            "status": {
+                "answerCnt": 17,
+                "attentionCnt": 20
+            }
+        },
+        {
+            "user": {
+                "avatar": "/static/avatar/avatar.jpg",
+                "name": "NewUserB"
+            },
+            "title": "TestA",
+            "description": "",
+            "status": {
+                "answerCnt": 0,
+                "attentionCnt": 0
+            }
+        },
+        {
+            "user": {
+                "avatar": "/static/avatar/avatar.jpg",
+                "name": "NewUserB"
+            },
+            "title": "提一个问题？",
+            "description": "这里是问题补充说明",
+            "status": {
+                "answerCnt": 0,
+                "attentionCnt": 0
+            }
+        }
+    ]
+}
